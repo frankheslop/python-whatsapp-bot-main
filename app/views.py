@@ -29,8 +29,8 @@ def handle_message():
     # logging.info(f"request body: {body}")
     #current_app.config['RECIPIENT_WAID'] = body.get("entry", [{}])[0].get("changes", [{}])[0].get("value", {}).get("contacts", {})[0].get('wa_id', {})
     print(f"This is the message body: {body}")
-    wa_id = body["entry"][0]["changes"][0]["value"]["contacts"][0]["wa_id"]
-    name = body["entry"][0]["changes"][0]["value"]["contacts"][0]["profile"]["name"]
+    # wa_id = body["entry"][0]["changes"][0]["value"]["contacts"][0]["wa_id"]
+    # name = body["entry"][0]["changes"][0]["value"]["contacts"][0]["profile"]["name"]
 
 
     # Check if it's a WhatsApp status update
